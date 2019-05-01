@@ -3,7 +3,7 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
         var io = new extIO({
             functions: {
                 js: 'goodRadix',
-                python: 'checkio'
+                python: 'good_radix'
             }
         });
         io.start();

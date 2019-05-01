@@ -10,9 +10,9 @@ class Referee(RefereeRank):
     TESTS = TESTS
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
-    DEFAULT_FUNCTION_NAME = "checkio"
+    DEFAULT_FUNCTION_NAME = "good_radix"
     FUNCTION_NAMES = {
-        "python_3": "checkio",
+        "python_3": "good_radix",
         "js_node": "goodRadix"
     }
     ENV_COVERCODE = {
